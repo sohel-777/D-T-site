@@ -71,6 +71,7 @@ const NavbarComp = () => {
             <ListItem>Gifting</ListItem>
             <ListItem onClick={() => navigate("/all-products")}>Summer Store</ListItem>
             <ListItem>Blogs</ListItem>
+            <ListItem onClick={() => navigate("/doc")}>Doctor's Consultation</ListItem>
           </List>
         </Drawer>
       </div>
